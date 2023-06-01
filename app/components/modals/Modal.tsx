@@ -76,7 +76,7 @@ const Modal:React.FC<ModalProps> = ({isOpen,onClose,onSubmit,title,body,footer,a
                                 </div>
                             </div>
                             {/* BODY */}
-                            <div className="relative p-6 h-[65vh] overflow-y-scroll flex-auto">
+                            <div className="relative p-6 max-h-[50vh] overflow-y-scroll flex-auto">
                                 {body}
                             </div>
                             {/* FOOTER */}
